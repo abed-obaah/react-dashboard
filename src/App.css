@@ -48,7 +48,7 @@ nav{
   justify-content: flex-start;
   border-bottom: 1px solid gray;
   padding-bottom: 16px;
-/*   flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 
 nav div ul{
@@ -86,7 +86,7 @@ div.dashboardHeader{
 div.dashboardHeader button{
   background: #E46F24;
   color: #fff;
-  width: 184px;
+  width: 182px;
  height: 48px;
  justify-content: center;
  align-items: center;
@@ -229,19 +229,6 @@ main{
   margin-left: 5em;
   }
   
-  main .date{
-      display: inline-block;
-      background: var(--color-light);
-      border-radius: var(--border-radius-1);
-      margin-top: 1rem;
-      padding: 0.5rem 1.6rem;
-  }
-  
-  main .date input[type='date']{
-      background: transparent;
-      color: var(--color-dark);
-  
-  }
   
   main .insight{
       display: grid;
@@ -460,9 +447,9 @@ tr{
 
 /* ========== MEDIA QUERIES ===== */
 @media screen and (max-width: 768px){
-.usersNameContainer ul{
+/* .usersNameContainer ul{
  display: flex;
-}
+} */
  .logos h2{
   width: 150px;
  }
