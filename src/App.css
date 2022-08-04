@@ -86,7 +86,9 @@ div.dashboardHeader{
 div.dashboardHeader button{
   background: #E46F24;
   color: #fff;
-  width: 182px;
+  width: 170px;
+    margin-right: 14em;
+  
  height: 48px;
  justify-content: center;
  align-items: center;
